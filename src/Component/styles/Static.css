@@ -1,0 +1,34 @@
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url('https://wpbim.themescamp.com/wp-content/uploads/2020/07/map01-1.png'); /* Optional: Use a background image */
+    background-size: cover;
+    padding: 95px 0;
+}
+
+.stat-item {
+    text-align: center;
+    color: #000; /* Change color if needed */
+}
+
+.stat-icon {
+    font-size: 4rem;
+    color: #3BC0D1; /* Customize the color */
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+
+    margin-bottom: 5px;
+}
+
+.stat-label {
+    font-size: 1rem;
+    font-weight: bold;
+}

@@ -1,0 +1,94 @@
+.work-process {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    padding: 100px 20px;
+  }
+  
+  .work-process h2 {
+    font-size: 2.7rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  
+  .work-process .highlight {
+    color:#0cc0d1;
+  }
+  
+  .work-process p {
+    margin-bottom: 60px;
+    line-height: 33px;
+    font-size: 16.5px;
+    letter-spacing: 0.8px;
+    color: #616161;
+  }
+  
+  .process-steps {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-wrap: wrap;   
+  }
+  
+  .step {
+    width: 350px;
+    margin: 10px ;
+
+  }
+  
+  .step .circle {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 15px #ffffff6b inset;
+    margin-bottom: 28px;
+
+  }
+  .step:nth-of-type(1) .circle{    
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('https://wpbim.themescamp.com/wp-content/uploads/2020/07/sq-img-07-1.jpg');
+    background-size:cover;
+  }
+  .step:nth-of-type(2)   .circle{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('https://wpbim.themescamp.com/wp-content/uploads/2020/07/img-01-1.jpg');
+    background-size:cover;
+  }
+ .step:nth-of-type(3) .circle{
+  
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('https://wpbim.themescamp.com/wp-content/uploads/2020/06/2-2.jpg');
+    background-size:cover;
+  }
+  .step .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .step .number {   
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(255, 255, 255); 
+    font-size: 8rem;
+    color: transparent;
+  }
+  
+  .step h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    line-height: 30px;
+    font-size: 17.5px;
+    margin-bottom: 0px;
+  }
+  /*     line-height: 32px;
+    font-size: 1.1rem;
+} */

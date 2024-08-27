@@ -1,0 +1,33 @@
+
+h3{
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+}
+div .footerDetails{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: .9rem;
+    color: #dcdcdc;
+    padding-top: 25px;
+}
+.footerDetails::before{
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #3bc0d1;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+div .footerDetails p{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+div .galleryFooter img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}

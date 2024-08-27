@@ -1,0 +1,95 @@
+.sliderContainer{
+    position: relative;
+    min-height: calc(100vh - 100px);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.8s;
+}  
+.sliderContainer .slider1{
+    min-width: 99.9vw;
+    min-height:100vh;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-left: 13%;
+    color: #fff;
+} 
+/* .sliderContainer .slider1:nth-of-type(2){
+  min-width: 99.9vw; 
+  min-height:100vh;    
+  background-image:radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1)) , url('https://images.pexels.com/photos/164522/pexels-photo-164522.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10%;
+  padding-left: 13%;
+  color: #fff;
+}  */
+
+.slider1  h2{
+   font-size: 1.3rem;
+   font-weight: 700;
+   letter-spacing: 2px;
+}
+.slider1 h1{
+    font-size:4rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+    width: 700px;
+    /* line-height: 80px; */
+}
+.slider1 span {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.slider1 p{
+    width: 60%;
+    font-weight: lighter;
+    line-height: 33px;
+    color: #e9e5e5;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.slider1 button{
+   width: 170px;
+   height: 45px;
+   border: 2px solid rgb(255, 255, 255);
+   font-size: .9rem;
+   letter-spacing: 1px;
+   font-weight: 500;
+   transition:.8s;
+}
+.slider1 button:nth-of-type(1){
+
+    background-color: #fff; 
+    color: #3bc0d1;
+   
+  }
+  .slider1 button:nth-of-type(1):hover{
+
+    background-color: transparent; 
+    color:#fff;
+  }
+.slider1 button:nth-of-type(2){
+  margin-left: 30px;
+}
+.slider1 button:nth-of-type(2):hover{
+  background-color: #fff; 
+    color: #3bc0d1;
+    }
+
+    .sliderContainer .dots{
+      position: absolute;
+      left: 50%;
+      display: flex;
+      bottom: 30px;
+    }
+    .sliderContainer .dots div{
+      width: 10px;
+      height: 10px;
+      border-radius:50%;
+      background-color: #959595 ;
+      cursor: pointer;
+    }
